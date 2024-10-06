@@ -6,7 +6,7 @@ const app = express();
 
 const employeesModel = require("./models/employees.js");
 
-const port = process.env.port || 3000;
+const port = process.env.PORT || 3000;
 const databaseURL = process.env.DATABASE_URL;
 
 app.use(express.json());
